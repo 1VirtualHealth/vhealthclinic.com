@@ -1,0 +1,95 @@
+@import 'variable-overrides';
+@import '../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
+@import 'overrides';
+
+.therapy-border{border-color: $therapy-color}
+.wellness-border{border-color: $wellness-color}
+.vm-border{border-color: $virtual-med-color}
+
+.doc-bg {
+	padding: 0 !important;
+}
+
+.navbar-toggle {
+	width:45px;
+	height:40px;
+}
+.navbar-collapse{
+	max-height: 400px;
+}
+.navbar-toggle a{
+	font-size:21px;
+	color: #5a3996;
+}
+
+.navbar-toggle {
+	padding: 0px 11px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #5a3996;
+}
+
+.navbar-h2c {
+	float:right;
+	clear:right;
+}
+
+#Logo {
+	float:left;
+	width: 250px;
+	padding-top: 30px;
+	text-decoration: none;
+	text-align: right;
+	img {
+		width: 400px;
+	}
+	a {
+		white-space: nowrap;
+		font-size: .7em;
+	}
+}
+
+@media (max-width: 767px){
+	#Logo{width: 100px;}
+	.navbar-h2c {
+		float: none;
+		position: inherit;
+		margin-top: 10px;
+	}
+}
+
+#Signup{margin-top: -55px; margin-left: 10px;}
+
+.phone-tag {
+	float:right;
+	padding: 0px 10px;
+	min-height: initial;
+	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+	box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+a.phone-tag{
+	text-decoration: none;
+}
+a.phone-tag:hover, a.phone-tag:focus{
+	text-decoration: none;
+}
+
+.nav>li>a {
+	position: relative;
+	display: block;
+	padding: 10px 8px;
+	line-height: 28px;
+}
+
+.clear{clear:both;}
+
+.thicktop{border-top-width: 10px; border-top-style: solid; padding:0px 10px 10px 10px;}
+
+.btn.right{float: right;margin-bottom: 20px;}
+

@@ -1,0 +1,16 @@
+// Overrides
+// --------------------------------------------------
+
+// Brand colors
+// -------------------------
+
+$corporate-color:		#5a3996;
+$therapy-color:			#00c4d7;
+$wellness-color:		#64a200;
+$virtual-med-color:		#043198;
+
+$brand-primary:			$corporate-color;
+
+$btn-primary-color:              #fff !default;
+$btn-primary-bg:                 $brand-primary !default;
+$btn-primary-border:             darken($btn-primary-bg, 5%) !default;
