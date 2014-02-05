@@ -15,6 +15,14 @@
           {% for post in site.categories.nav %}
             <li class=""><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
           {% endfor %}
+          <li class="dropdown $LinkingMode">
+            <a href="" class="dropdown-toggle" title="Company"  data-toggle="dropdown">Company<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+            {% for post in site.categories.company %}
+              <li class=""><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+            {% endfor %}
+            </ul>
+          </li> 
 <!--
             <% loop $Menu(1) %>
             <% if $Children %>
