@@ -5139,6 +5139,9 @@ td.visible-print {
 .vm-border {
   border-color: #043198; }
 
+ol {
+  padding-left: 15px; }
+
 .doc-bg {
   padding: 0 !important; }
 
@@ -5173,11 +5176,16 @@ td.visible-print {
     width: 400px; }
   #Logo a {
     white-space: nowrap;
-    font-size: .7em; }
+    font-size: .7em;
+    text-decoration: none; }
 
+@media (max-width: 991px) {
+  #Logo {
+    padding-top: 5px; } }
 @media (max-width: 767px) {
   #Logo {
-    width: 100px; }
+    width: 100px;
+    padding-top: 30px; }
 
   .navbar-h2c {
     float: none;

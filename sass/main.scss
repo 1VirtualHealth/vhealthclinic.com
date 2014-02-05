@@ -5,7 +5,7 @@
 .therapy-border{border-color: $therapy-color}
 .wellness-border{border-color: $wellness-color}
 .vm-border{border-color: $virtual-med-color}
-
+ol{padding-left: 15px;}
 .doc-bg {
 	padding: 0 !important;
 }
@@ -47,11 +47,14 @@
 	a {
 		white-space: nowrap;
 		font-size: .7em;
+		text-decoration: none;
 	}
 }
-
-@media (max-width: 767px){
-	#Logo{width: 100px;}
+@media (max-width: $screen-sm-max){
+	#Logo{padding-top: 5px;}
+}
+@media (max-width: $screen-xs-max){
+	#Logo{width: 100px;padding-top: 30px;}
 	.navbar-h2c {
 		float: none;
 		position: inherit;
