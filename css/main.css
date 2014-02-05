@@ -5187,6 +5187,9 @@ ol {
     width: 100px;
     padding-top: 30px; }
 
+  .btn.visible-xs {
+    display: inline-block !important; }
+
   .navbar-h2c {
     float: none;
     position: inherit;
