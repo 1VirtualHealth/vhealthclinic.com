@@ -5169,7 +5169,7 @@ ol {
 #Logo {
   float: left;
   width: 250px;
-  padding-top: 30px;
+  padding-top: 10px;
   text-decoration: none;
   text-align: right; }
   #Logo img {
@@ -5181,11 +5181,12 @@ ol {
 
 @media (max-width: 991px) {
   #Logo {
-    padding-top: 5px; } }
+    width: 170px;
+    padding-top: 20px; } }
 @media (max-width: 767px) {
   #Logo {
     width: 100px;
-    padding-top: 30px; }
+    padding-top: 0px; }
 
   .btn.visible-xs {
     display: inline-block !important; }
