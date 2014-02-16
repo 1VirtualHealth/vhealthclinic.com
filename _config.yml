@@ -1,3 +1,7 @@
-name: Your New Jekyll Site
+name: vHealthClinic.com
 markdown: redcarpet
 pygments: true
+whitelabel:
+  company: Guiding Life, Inc.
+  logo: vHealthClinic.svg
+  tag: powered by Guding Life
