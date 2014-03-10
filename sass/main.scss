@@ -52,8 +52,8 @@ ol{padding-left: 15px;}
 }
 @media (max-width: $screen-sm-max){
 	#Logo{
-		width: 170px;
-		padding-top: 20px;
+		width: 130px;
+		padding-top: 25px;
 	}
 }
 @media (max-width: $screen-xs-max){
@@ -100,4 +100,26 @@ a.phone-tag:hover, a.phone-tag:focus{
 
 .btn.right{float: right;margin-bottom: 20px;}
 
+#WebsiteAlive {
+	position: absolute;
+	top: 133px;
+}
 
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+@media(max-width: $screen-xs-max){
+	#wsa_embed {
+		display: none;
+	}
+	.container {
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}

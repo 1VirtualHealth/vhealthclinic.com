@@ -5181,8 +5181,8 @@ ol {
 
 @media (max-width: 991px) {
   #Logo {
-    width: 170px;
-    padding-top: 20px; } }
+    width: 130px;
+    padding-top: 25px; } }
 @media (max-width: 767px) {
   #Logo {
     width: 100px;
@@ -5233,5 +5233,25 @@ a.phone-tag:hover, a.phone-tag:focus {
 .btn.right {
   float: right;
   margin-bottom: 20px; }
+
+#WebsiteAlive {
+  position: absolute;
+  top: 133px; }
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 35px;
+  padding-right: 35px; }
+
+@media (max-width: 767px) {
+  #wsa_embed {
+    display: none; }
+
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px; } }
 
 /*# sourceMappingURL=main.css.map */
