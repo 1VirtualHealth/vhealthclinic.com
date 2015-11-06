@@ -5168,8 +5168,9 @@ ol {
 
 #Logo {
   float: left;
-  width: 250px;
-  padding-top: 10px;
+  width: 110px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   text-decoration: none;
   text-align: right; }
   #Logo img {
@@ -5180,12 +5181,10 @@ ol {
     text-decoration: none; }
 
 @media (max-width: 991px) {
-  #Logo {
-    width: 130px;
-    padding-top: 25px; } }
+  #Logo {} }
 @media (max-width: 767px) {
   #Logo {
-    width: 100px;
+    width: 50px;
     padding-top: 0px; }
 
   .btn.visible-xs {
