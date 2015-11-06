@@ -1,7 +1,7 @@
-name: vHealthClinic.com
+name: AcuteCareTriage.com
 markdown: redcarpet
 pygments: true
 whitelabel:
   company: Guiding Life, Inc.
-  logo: vHealthClinic.svg
+  logo: ACT.svg
   tag: 
