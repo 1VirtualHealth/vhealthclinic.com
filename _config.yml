@@ -1,7 +1,7 @@
-name: AcuteCareTriage.com
+name: Acutecaretriage.com
 markdown: redcarpet
 pygments: true
 whitelabel:
-  company: Guiding Life, Inc.
+  company: Acutecaretriage.com
   logo: ACT.svg
   tag: 
