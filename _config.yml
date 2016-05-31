@@ -1,6 +1,6 @@
 name: Acutecaretriage.com
 markdown: redcarpet
-pygments: true
+rouge: true
 whitelabel:
   company: Acutecaretriage.com
   logo: ACT Logo_Color H.png
