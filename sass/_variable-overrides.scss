@@ -14,3 +14,11 @@ $brand-primary:			$corporate-color;
 $btn-primary-color:              #fff !default;
 $btn-primary-bg:                 $brand-primary !default;
 $btn-primary-border:             darken($btn-primary-bg, 5%) !default;
+
+$gray-dark:              #414042 !default;
+$gray-darker:            darken($gray-dark, 10%) !default;
+$gray:                   lighten($gray-dark, 30%) !default;
+$gray-light:             lighten($gray-dark, 40%) !default;
+$gray-lighter:           lighten($gray-dark, 50%) !default;
+
+$headings-color:      $gray-dark;
