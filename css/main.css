@@ -279,10 +279,10 @@ textarea {
   line-height: inherit; }
 
 a {
-  color: #003044;
+  color: #008998;
   text-decoration: none; }
   a:hover, a:focus {
-    color: black;
+    color: #00444c;
     text-decoration: underline; }
   a:focus {
     outline: thin dotted;
@@ -2057,7 +2057,7 @@ select[multiple].input-lg,
     background-color: #fff; }
 
 .btn-link {
-  color: #003044;
+  color: #008998;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0; }
@@ -2068,7 +2068,7 @@ select[multiple].input-lg,
   .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
     border-color: transparent; }
   .btn-link:hover, .btn-link:focus {
-    color: black;
+    color: #00444c;
     text-decoration: underline;
     background-color: transparent; }
   .btn-link[disabled]:hover, .btn-link[disabled]:focus, fieldset[disabled] .btn-link:hover, fieldset[disabled] .btn-link:focus {
@@ -3148,7 +3148,7 @@ input[type="button"].btn-block {
         cursor: not-allowed; }
   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
     background-color: #c1c0c1;
-    border-color: #003044; }
+    border-color: #008998; }
   .nav .nav-divider {
     height: 1px;
     margin: 9px 0;
@@ -3601,7 +3601,7 @@ input[type="button"].btn-block {
       padding: 6px 12px;
       line-height: 1.42857;
       text-decoration: none;
-      color: #003044;
+      color: #008998;
       background-color: #fff;
       border: 1px solid #ddd;
       margin-left: -1px; }
@@ -3617,7 +3617,7 @@ input[type="button"].btn-block {
   .pagination > li > a:hover, .pagination > li > a:focus,
   .pagination > li > span:hover,
   .pagination > li > span:focus {
-    color: black;
+    color: #00444c;
     background-color: #c1c0c1;
     border-color: #ddd; }
   .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
@@ -3783,7 +3783,7 @@ a.badge:hover, a.badge:focus {
 
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #003044;
+  color: #008998;
   background-color: #fff; }
 
 .nav-pills > li > a > .badge {
@@ -3840,7 +3840,7 @@ a.list-group-item.active > .badge,
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #003044; }
+  border-color: #008998; }
 
 .alert {
   padding: 15px;
