@@ -12,17 +12,25 @@
         <div class="navbar-collapse navbar-ex1-collapse collapse" style="height: 1px;">
           <ul class="nav navbar-nav">
             <li class=""><a href="/" title="Home">Home</a></li>
+            <li class="dropdown $LinkingMode">
+              <a href="" class="dropdown-toggle" title="Products"  data-toggle="dropdown">Products<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+              {% for post in site.categories.products %}
+                <li class=""><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+              {% endfor %}
+              </ul>
+            </li>
           {% for post in site.categories.nav %}
             <li class=""><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
           {% endfor %}
-          <li class="dropdown $LinkingMode">
-            <a href="" class="dropdown-toggle" title="Company"  data-toggle="dropdown">Company<b class="caret"></b></a>
-            <ul class="dropdown-menu">
-            {% for post in site.categories.company %}
-              <li class=""><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-            {% endfor %}
-            </ul>
-          </li> 
+            <li class="dropdown $LinkingMode">
+              <a href="" class="dropdown-toggle" title="Company"  data-toggle="dropdown">Company<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+              {% for post in site.categories.company %}
+                <li class=""><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+              {% endfor %}
+              </ul>
+            </li>
 <!--
             <% loop $Menu(1) %>
             <% if $Children %>
@@ -41,8 +49,8 @@
               <% else %>
             <li class="$LinkingMode"><a href="$Link" title="$Title.XML">$MenuTitle.XML</a></li>
           <% end_if %>
-          <% end_loop %>     
--->               
+          <% end_loop %>
+-->
           </ul>
         </div>
       </nav>
