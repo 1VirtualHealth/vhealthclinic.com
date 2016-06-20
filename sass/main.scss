@@ -36,9 +36,9 @@ ol{padding-left: 15px;}
 }
 
 #Logo {
-	float:left;
-	width: 250px;
-	padding-top: 5px;
+	margin: auto;
+	width: 110px;
+	padding-top: 15px;
 	padding-bottom: 5px;
 	text-decoration: none;
 	text-align: right;
@@ -56,7 +56,6 @@ ol{padding-left: 15px;}
 	}
 }
 @media (max-width: $screen-xs-max){
-	#Logo{width: 100px;}
 	.btn.visible-xs {display: inline-block !important;}
 	.navbar-h2c {
 		float: none;
@@ -122,3 +121,5 @@ a.phone-tag:hover, a.phone-tag:focus{
 		padding-right: 10px;
 	}
 }
+
+@import 'menu';

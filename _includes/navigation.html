@@ -1,56 +1,40 @@
-      <nav class="navbar navbar-default navbar-h2c" role="navigation">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+    <div id="wrapper">
+        <div class="overlay"></div>
+    
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class=""><a href="/" title="Home">Home</a></li>
+                <li class="dropdown $LinkingMode">
+                  <a href="" class="dropdown-toggle" title="Products"  data-toggle="dropdown">Products<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  {% for post in site.categories.products %}
+                    <li class=""><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+                  {% endfor %}
+                  </ul>
+                </li>
+              {% for post in site.categories.nav %}
+                <li class=""><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+              {% endfor %}
+                <li class="dropdown $LinkingMode">
+                  <a href="" class="dropdown-toggle" title="Company"  data-toggle="dropdown">Company<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  {% for post in site.categories.company %}
+                    <li class=""><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+                  {% endfor %}
+                  </ul>
+                </li>
+            </ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+          <button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
+            <span class="hamb-top"></span>
+            <span class="hamb-middle"></span>
+            <span class="hamb-bottom"></span>
           </button>
-          <button type="button" class="navbar-toggle collapsed"><a href="tel:9496294234" type="tel"><i class="glyphicon glyphicon-earphone"></i></a></button>
-          <button type="button" class="navbar-toggle collapsed"><a href="{{ site.data.links.login }}" title="log in"><i class="glyphicon glyphicon-log-in"></i></a></button>
         </div>
-        <div class="navbar-collapse navbar-ex1-collapse collapse" style="height: 1px;">
-          <ul class="nav navbar-nav">
-            <li class=""><a href="/" title="Home">Home</a></li>
-            <li class="dropdown $LinkingMode">
-              <a href="" class="dropdown-toggle" title="Products"  data-toggle="dropdown">Products<b class="caret"></b></a>
-              <ul class="dropdown-menu">
-              {% for post in site.categories.products %}
-                <li class=""><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-              {% endfor %}
-              </ul>
-            </li>
-          {% for post in site.categories.nav %}
-            <li class=""><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-          {% endfor %}
-            <li class="dropdown $LinkingMode">
-              <a href="" class="dropdown-toggle" title="Company"  data-toggle="dropdown">Company<b class="caret"></b></a>
-              <ul class="dropdown-menu">
-              {% for post in site.categories.company %}
-                <li class=""><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-              {% endfor %}
-              </ul>
-            </li>
-<!--
-            <% loop $Menu(1) %>
-            <% if $Children %>
-            <li class="dropdown $LinkingMode">
-              <a href="$Link" class="dropdown-toggle $LinkingMode" title="$Title.XML"  data-toggle="dropdown">$MenuTitle.XML <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <% loop $Children %>
-                <li class="$LinkingMode">
-                  <a href="$Link" class="$LinkingMode" title="$Title.XML">
-                      $MenuTitle.XML
-                  </a>
-                </li>
-                <% end_loop %>
-                </li>
-              </ul>
-              <% else %>
-            <li class="$LinkingMode"><a href="$Link" title="$Title.XML">$MenuTitle.XML</a></li>
-          <% end_if %>
-          <% end_loop %>
--->
-          </ul>
-        </div>
-      </nav>
+        <!-- /#page-content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
