@@ -5086,6 +5086,29 @@ td.visible-print {
     color: #D7C834;
     background-color: #fff; }
 
+.btn-cc {
+  color: #fff;
+  background-color: #003044;
+  border-color: #001e2b; }
+  .btn-cc:hover, .btn-cc:focus, .btn-cc:active, .btn-cc.active {
+    color: #fff;
+    background-color: #00131b;
+    border-color: black; }
+  .open .btn-cc.dropdown-toggle {
+    color: #fff;
+    background-color: #00131b;
+    border-color: black; }
+  .btn-cc:active, .btn-cc.active {
+    background-image: none; }
+  .open .btn-cc.dropdown-toggle {
+    background-image: none; }
+  .btn-cc.disabled, .btn-cc.disabled:hover, .btn-cc.disabled:focus, .btn-cc.disabled:active, .btn-cc.disabled.active, .btn-cc[disabled], .btn-cc[disabled]:hover, .btn-cc[disabled]:focus, .btn-cc[disabled]:active, .btn-cc[disabled].active, fieldset[disabled] .btn-cc, fieldset[disabled] .btn-cc:hover, fieldset[disabled] .btn-cc:focus, fieldset[disabled] .btn-cc:active, fieldset[disabled] .btn-cc.active {
+    background-color: #003044;
+    border-color: #001e2b; }
+  .btn-cc .badge {
+    color: #003044;
+    background-color: #fff; }
+
 .navbar-brand {
   float: left;
   padding: 15px 15px 0px 15px;
@@ -5224,7 +5247,8 @@ a.phone-tag:hover, a.phone-tag:focus {
 
 .btn.right {
   float: right;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  margin-left: 5px; }
 
 #WebsiteAlive {
   position: absolute;

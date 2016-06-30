@@ -14,6 +14,10 @@
   @include button-brand-variant($virtual-med-color);
 }
 
+.btn-cc {
+  @include button-brand-variant($corporate-color);
+}
+
 // Bootstrap Overrides
 // --------------------------------------------------
 
