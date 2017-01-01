@@ -6082,6 +6082,25 @@ a.phone-tag:hover, a.phone-tag:focus {
     margin-left: auto;
     padding-left: 10px;
     padding-right: 10px; } }
+.dark-bg h1, .dark-bg h2, .dark-bg h3, .dark-bg h4, .dark-bg h5, .dark-bg h6,
+.dark-bg .h1, .dark-bg .h2, .dark-bg .h3, .dark-bg .h4, .dark-bg .h5, .dark-bg .h6 {
+  color: #fff; }
+  .dark-bg h1 small,
+  .dark-bg h1 .small, .dark-bg h2 small,
+  .dark-bg h2 .small, .dark-bg h3 small,
+  .dark-bg h3 .small, .dark-bg h4 small,
+  .dark-bg h4 .small, .dark-bg h5 small,
+  .dark-bg h5 .small, .dark-bg h6 small,
+  .dark-bg h6 .small,
+  .dark-bg .h1 small,
+  .dark-bg .h1 .small, .dark-bg .h2 small,
+  .dark-bg .h2 .small, .dark-bg .h3 small,
+  .dark-bg .h3 .small, .dark-bg .h4 small,
+  .dark-bg .h4 .small, .dark-bg .h5 small,
+  .dark-bg .h5 .small, .dark-bg .h6 small,
+  .dark-bg .h6 .small {
+    color: #fff; }
+
 /*-------------------------------*/
 /*           VARIABLES           */
 /*-------------------------------*/
