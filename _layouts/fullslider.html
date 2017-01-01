@@ -1,0 +1,24 @@
+ <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="$ContentLocale"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="$ContentLocale"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="$ContentLocale"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="$ContentLocale"> <!--<![endif]-->
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include chat.html %}
+    {% include fixednav.html %}
+    {% include fullslider.html %}
+    <div class="container">
+      {% include navigation.html %}
+      <div class="clearfix"></div>
+      <div class="clearfix inner typography line">
+        {{ content }}
+      </div>
+      <div class="clearfix"></div>
+      {% include footer.html %}
+    </div> <!-- /container -->
+    {% include js.html %}
+  </body>
+</html>

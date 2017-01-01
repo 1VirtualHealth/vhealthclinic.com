@@ -1,6 +1,8 @@
 @import 'variable-overrides';
-@import '../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
+@import '../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss';
 @import 'overrides';
+
+
 
 .therapy-border{border-color: $therapy-color}
 .wellness-border{border-color: $wellness-color}
@@ -123,3 +125,4 @@ a.phone-tag:hover, a.phone-tag:focus{
 }
 
 @import 'menu';
+@import 'fullslider'
